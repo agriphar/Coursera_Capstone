@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_29afcfdf5fe841dfa6e947a0894b41b1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_29afcfdf5fe841dfa6e947a0894b41b1" ></div>
+        
+</body>
+<script>    
+    
+            var map_29afcfdf5fe841dfa6e947a0894b41b1 = L.map(
+                "map_29afcfdf5fe841dfa6e947a0894b41b1",
+                {
+                    center: [31.2252985, 121.4890497],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_002b0f2b565d4e37aec06d429ad22a2d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+            var circle_marker_f39743f9782d41c398dc8720c62fbf30 = L.circleMarker(
+                [31.23780000000005, 121.47810000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_46f5ffa3bc364032812c9f221648cd71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aee71effeccc43a7b82710f6984c629f = $(`<div id="html_aee71effeccc43a7b82710f6984c629f" style="width: 100.0%; height: 100.0%;">Huangpu District</div>`)[0];
+            popup_46f5ffa3bc364032812c9f221648cd71.setContent(html_aee71effeccc43a7b82710f6984c629f);
+        
+
+        circle_marker_f39743f9782d41c398dc8720c62fbf30.bindPopup(popup_46f5ffa3bc364032812c9f221648cd71)
+        ;
+
+        
+    
+    
+            var circle_marker_2bce97d4448046398b1c5f2c2d1152a6 = L.circleMarker(
+                [31.195940000000064, 121.44709000000012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_1f9c62c7fda8448492b0df9427027bc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56b2535140bc4410860ed96becbb3ac1 = $(`<div id="html_56b2535140bc4410860ed96becbb3ac1" style="width: 100.0%; height: 100.0%;">Xuhui District</div>`)[0];
+            popup_1f9c62c7fda8448492b0df9427027bc2.setContent(html_56b2535140bc4410860ed96becbb3ac1);
+        
+
+        circle_marker_2bce97d4448046398b1c5f2c2d1152a6.bindPopup(popup_1f9c62c7fda8448492b0df9427027bc2)
+        ;
+
+        
+    
+    
+            var circle_marker_bf4c4fb0edd34d5384c6330b34c6d358 = L.circleMarker(
+                [31.217390000000023, 121.42105000000004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_1c9c1d4bc8bb4771af07a0ea202e65af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_127167a98ce24429ab3d91056c4b5e26 = $(`<div id="html_127167a98ce24429ab3d91056c4b5e26" style="width: 100.0%; height: 100.0%;">Changning District</div>`)[0];
+            popup_1c9c1d4bc8bb4771af07a0ea202e65af.setContent(html_127167a98ce24429ab3d91056c4b5e26);
+        
+
+        circle_marker_bf4c4fb0edd34d5384c6330b34c6d358.bindPopup(popup_1c9c1d4bc8bb4771af07a0ea202e65af)
+        ;
+
+        
+    
+    
+            var circle_marker_50ad5b753a4a440f80998c5fc4f72ec0 = L.circleMarker(
+                [31.220000000000027, 121.41583000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_725226d55d114d9faeb67725d37badfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f573d7280b514fbc8ca5531903276cde = $(`<div id="html_f573d7280b514fbc8ca5531903276cde" style="width: 100.0%; height: 100.0%;">Jing&#39;an District</div>`)[0];
+            popup_725226d55d114d9faeb67725d37badfb.setContent(html_f573d7280b514fbc8ca5531903276cde);
+        
+
+        circle_marker_50ad5b753a4a440f80998c5fc4f72ec0.bindPopup(popup_725226d55d114d9faeb67725d37badfb)
+        ;
+
+        
+    
+    
+            var circle_marker_7bed298083f041d7adf5a78f438148ae = L.circleMarker(
+                [31.251000000000033, 121.38970000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_2fe8f49cf8874183ac89e5116f314b77 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32a30fa1e36f4b848a8012a06a1a06ce = $(`<div id="html_32a30fa1e36f4b848a8012a06a1a06ce" style="width: 100.0%; height: 100.0%;">Putuo District</div>`)[0];
+            popup_2fe8f49cf8874183ac89e5116f314b77.setContent(html_32a30fa1e36f4b848a8012a06a1a06ce);
+        
+
+        circle_marker_7bed298083f041d7adf5a78f438148ae.bindPopup(popup_2fe8f49cf8874183ac89e5116f314b77)
+        ;
+
+        
+    
+    
+            var circle_marker_b45d65e5e9114c11841e66d04ea83418 = L.circleMarker(
+                [31.250000000000057, 121.48917000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_b82a694616d64729a3b685bc69d74102 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52f4f3a0dc22475198439802b62748a8 = $(`<div id="html_52f4f3a0dc22475198439802b62748a8" style="width: 100.0%; height: 100.0%;">Hongkou District</div>`)[0];
+            popup_b82a694616d64729a3b685bc69d74102.setContent(html_52f4f3a0dc22475198439802b62748a8);
+        
+
+        circle_marker_b45d65e5e9114c11841e66d04ea83418.bindPopup(popup_b82a694616d64729a3b685bc69d74102)
+        ;
+
+        
+    
+    
+            var circle_marker_4fe9702da45d41aa83e205231c6a902a = L.circleMarker(
+                [31.261930000000064, 121.51904000000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_ae388e88526249528220528654db9929 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_805381bd2a6b4b4cb3491b16f6dbfce6 = $(`<div id="html_805381bd2a6b4b4cb3491b16f6dbfce6" style="width: 100.0%; height: 100.0%;">Yangpu District</div>`)[0];
+            popup_ae388e88526249528220528654db9929.setContent(html_805381bd2a6b4b4cb3491b16f6dbfce6);
+        
+
+        circle_marker_4fe9702da45d41aa83e205231c6a902a.bindPopup(popup_ae388e88526249528220528654db9929)
+        ;
+
+        
+    
+    
+            var circle_marker_3a4c534de44641ab8eb21834b2523abe = L.circleMarker(
+                [31.235130000000026, 121.52759000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_60d43adaabd049b2a410cd58cf9fa381 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a511512abce4a51ac0250e3ff330b4e = $(`<div id="html_7a511512abce4a51ac0250e3ff330b4e" style="width: 100.0%; height: 100.0%;">Pudong New Area</div>`)[0];
+            popup_60d43adaabd049b2a410cd58cf9fa381.setContent(html_7a511512abce4a51ac0250e3ff330b4e);
+        
+
+        circle_marker_3a4c534de44641ab8eb21834b2523abe.bindPopup(popup_60d43adaabd049b2a410cd58cf9fa381)
+        ;
+
+        
+    
+    
+            var circle_marker_ed40a4d61d7f4e1896aa62395d2cde91 = L.circleMarker(
+                [31.10880000000003, 121.37472000000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_63fc301c1fd44bcebdb7c6823b12fc67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94241dbf876c4ca9a71d635b6d242b04 = $(`<div id="html_94241dbf876c4ca9a71d635b6d242b04" style="width: 100.0%; height: 100.0%;">Minhang District</div>`)[0];
+            popup_63fc301c1fd44bcebdb7c6823b12fc67.setContent(html_94241dbf876c4ca9a71d635b6d242b04);
+        
+
+        circle_marker_ed40a4d61d7f4e1896aa62395d2cde91.bindPopup(popup_63fc301c1fd44bcebdb7c6823b12fc67)
+        ;
+
+        
+    
+    
+            var circle_marker_314c2573e7cb41c5b631bb3a1973bc9f = L.circleMarker(
+                [31.416390000000035, 121.48000000000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_1853d5c9ce754a378a4aede48b1ca0d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a011efe3bb0d4b17a28cb160457dc4b6 = $(`<div id="html_a011efe3bb0d4b17a28cb160457dc4b6" style="width: 100.0%; height: 100.0%;">Baoshan District</div>`)[0];
+            popup_1853d5c9ce754a378a4aede48b1ca0d9.setContent(html_a011efe3bb0d4b17a28cb160457dc4b6);
+        
+
+        circle_marker_314c2573e7cb41c5b631bb3a1973bc9f.bindPopup(popup_1853d5c9ce754a378a4aede48b1ca0d9)
+        ;
+
+        
+    
+    
+            var circle_marker_bca1f27b5e924547a339f35c84a228b4 = L.circleMarker(
+                [31.366370000000074, 121.22153000000003],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_592760448bf84f04956aae77339ae32e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d97f2499eeb401dae7c72049bd3150f = $(`<div id="html_2d97f2499eeb401dae7c72049bd3150f" style="width: 100.0%; height: 100.0%;">Jiading District</div>`)[0];
+            popup_592760448bf84f04956aae77339ae32e.setContent(html_2d97f2499eeb401dae7c72049bd3150f);
+        
+
+        circle_marker_bca1f27b5e924547a339f35c84a228b4.bindPopup(popup_592760448bf84f04956aae77339ae32e)
+        ;
+
+        
+    
+    
+            var circle_marker_edef3ae051434361852af00643f8af71 = L.circleMarker(
+                [30.920250000000067, 121.25199000000009],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_5cec5a4dfe474823b456f72f66a4aa71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ebc341a94b64e6daddbac5b49a31297 = $(`<div id="html_8ebc341a94b64e6daddbac5b49a31297" style="width: 100.0%; height: 100.0%;">Jinshan District</div>`)[0];
+            popup_5cec5a4dfe474823b456f72f66a4aa71.setContent(html_8ebc341a94b64e6daddbac5b49a31297);
+        
+
+        circle_marker_edef3ae051434361852af00643f8af71.bindPopup(popup_5cec5a4dfe474823b456f72f66a4aa71)
+        ;
+
+        
+    
+    
+            var circle_marker_3f3d071cdcdd43758f445d2ed1d5e4c0 = L.circleMarker(
+                [31.03595000000007, 121.21460000000002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_c905bc34811241ed8e115e8bb4b0e5c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9168429c12c41cebcce6628b8eb3d71 = $(`<div id="html_a9168429c12c41cebcce6628b8eb3d71" style="width: 100.0%; height: 100.0%;">Songjiang District</div>`)[0];
+            popup_c905bc34811241ed8e115e8bb4b0e5c1.setContent(html_a9168429c12c41cebcce6628b8eb3d71);
+        
+
+        circle_marker_3f3d071cdcdd43758f445d2ed1d5e4c0.bindPopup(popup_c905bc34811241ed8e115e8bb4b0e5c1)
+        ;
+
+        
+    
+    
+            var circle_marker_67d879573836468eb4594a8e38a46863 = L.circleMarker(
+                [31.153940000000034, 121.11408000000006],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_418ddae2db154df4b0259d02fe58afa8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9280a9c587c4a93b445888c72ece361 = $(`<div id="html_a9280a9c587c4a93b445888c72ece361" style="width: 100.0%; height: 100.0%;">Qingpu District</div>`)[0];
+            popup_418ddae2db154df4b0259d02fe58afa8.setContent(html_a9280a9c587c4a93b445888c72ece361);
+        
+
+        circle_marker_67d879573836468eb4594a8e38a46863.bindPopup(popup_418ddae2db154df4b0259d02fe58afa8)
+        ;
+
+        
+    
+    
+            var circle_marker_3a6735b73a0d4d55a8e4cc6cd7d19c1c = L.circleMarker(
+                [30.833810000000028, 121.52128000000005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_b7077990b4ea422b8d48ba8050369b19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_413fbf36edc74586a43d267151ab9076 = $(`<div id="html_413fbf36edc74586a43d267151ab9076" style="width: 100.0%; height: 100.0%;">Fengxian District</div>`)[0];
+            popup_b7077990b4ea422b8d48ba8050369b19.setContent(html_413fbf36edc74586a43d267151ab9076);
+        
+
+        circle_marker_3a6735b73a0d4d55a8e4cc6cd7d19c1c.bindPopup(popup_b7077990b4ea422b8d48ba8050369b19)
+        ;
+
+        
+    
+    
+            var circle_marker_f22390710aca48c8a8bf7f4b598840d6 = L.circleMarker(
+                [31.389950000000056, 121.68385],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3186cc", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_29afcfdf5fe841dfa6e947a0894b41b1);
+        
+    
+        var popup_d0bc8b984d9247beafb65275afd5291e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cb392e97b634ffd9ed0a54dade0d149 = $(`<div id="html_5cb392e97b634ffd9ed0a54dade0d149" style="width: 100.0%; height: 100.0%;">Chongming District</div>`)[0];
+            popup_d0bc8b984d9247beafb65275afd5291e.setContent(html_5cb392e97b634ffd9ed0a54dade0d149);
+        
+
+        circle_marker_f22390710aca48c8a8bf7f4b598840d6.bindPopup(popup_d0bc8b984d9247beafb65275afd5291e)
+        ;
+
+        
+    
+</script>
